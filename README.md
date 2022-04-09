@@ -10,13 +10,13 @@ https://github.com/zhengziqiang/ForkGAN
 ```
 # The directory structure of flower should be this:
 ├── bdd100k
-  ├── trainA (rainy night images) - 27971 images
+  ├── trainA (rainy night - 27971 images)
       ├── images here...
-  ├── trainB (daytime images) - 36728 images
+  ├── trainB (daytime - 36728 images)
       ├── images here...
-  ├── testA (testing rainy night images) - 3929 images
+  ├── testA (rainy night - 3929 images)
       ├── images here...
-  ├── testb (testing daytime images) - 5258 images
+  ├── testb (daytime - 5258 images)
       ├── images here...
 ```
 
