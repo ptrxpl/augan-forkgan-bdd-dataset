@@ -1,4 +1,4 @@
-# augan-bdd-dataset
+# augan-forkgan-bdd-dataset
 
 Dataset is BDD100K.
 With 2 scripts, I managed to make train/test folders, for AU-GAN (and / or ForkGAN).
