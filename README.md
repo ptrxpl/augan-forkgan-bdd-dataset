@@ -2,7 +2,9 @@
 
 Dataset is BDD100K.
 With 2 scripts, I managed to make train/test folders, for AU-GAN (and / or ForkGAN).
+
 https://github.com/jgkwak95/AU-GAN
+
 https://github.com/zhengziqiang/ForkGAN
 
 "We reorganized this dataset for night-to-day and day-to-night tasks according to the daytime annotation, and obtained 27,971/3,929 train/val split for night images and 36,728/5,258 train/test split for day images."
