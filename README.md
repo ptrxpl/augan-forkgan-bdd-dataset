@@ -29,3 +29,29 @@ https://bdd-data.berkeley.edu/portal.html#download
 Permission to use, copy, modify, and **distribute** this software and its documentation for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement; and permission to use, copy, modify and distribute this software for commercial purposes (such rights not subject to transfer) to BDD and BAIR Commons members and their affiliates, **is hereby granted**
 
 But if I am wrong and if anyone from BDD100K dataset has an issue with that, please just write here, will delete it immediately.
+
+
+### Using in Google Colab
+```
+!git clone https://github.com/ptrxpl/augan-forkgan-bdd-dataset.git
+
+import os
+
+dir = "augan-forkgan-bdd-dataset/bdd100k/"
+
+list_trainA = os.listdir(dir + "trainA")
+list_trainB = os.listdir(dir + "trainB")
+list_testA = os.listdir(dir + "testA")
+list_testB = os.listdir(dir + "testB")
+
+print("trainA: " + str(len(list_trainA)))
+print("trainB: " + str(len(list_trainB)))
+print("testA: " + str(len(list_testA)))
+print("testB: " + str(len(list_testB)))
+
+# Should be:
+# trainA: 27971
+# trainB: 36728
+# testA: 3929
+# testB: 5258
+```
